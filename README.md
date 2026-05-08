@@ -162,5 +162,3 @@ node server.js
 
 # Create package-lock.json again
 npm install --package-lock-only
-
-insta;;
