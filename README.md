@@ -131,3 +131,34 @@ Node.js Express Server
  ┌───────────────┐
  │ Razorpay API  │
  └───────────────┘
+
+
+ # Clone repository
+git clone <repository-url>
+
+# Move into project folder
+cd Ecommercebot
+
+# Install all dependencies
+npm install
+
+# Install specific modules manually (if needed)
+npm install express
+npm install mongoose
+npm install dotenv
+npm install razorpay
+npm install node-fetch
+npm install pdfkit
+
+# Start MongoDB
+mongod
+
+# Run project
+npm start
+
+# OR run directly
+node server.js
+
+
+# Create package-lock.json again
+npm install --package-lock-only
